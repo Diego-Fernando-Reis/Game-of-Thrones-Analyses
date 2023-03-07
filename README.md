@@ -2,7 +2,7 @@
 
 [![Resilia Logo](https://www.resilia.com.br/wp-content/uploads/2021/08/logo.png)](https://www.resilia.com.br/)
 
-# Projeto em Grupo — Módulo 4 
+# Projeto em Grupo — Módulo 4 👨‍💻
 
 
 ## ◼ Sobre o Projeto
@@ -14,7 +14,7 @@ apresentação com a exploração dos dados.
 
 
 
-  ##  <strong><samp>Objetivos</samp></strong>
+  ###  <font size=7><strong><samp>Objetivos</samp></strong></font>
 
 <details>
 * Estruturar o esquema do banco de dados
