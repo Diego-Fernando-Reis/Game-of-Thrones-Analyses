@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 function Columnchart(){
   const [post, setPost] = useState();
 
+  
 
   useEffect(()=> {
     axios
@@ -15,9 +16,9 @@ function Columnchart(){
     .catch((erro) => console.log(erro));
   })
 
-  
 
-  
+
+
 
   const series = [{
     name: 'Teste',
@@ -25,16 +26,41 @@ function Columnchart(){
       return e.Quantidade
     })
   }]
-
+ 
   const options = {
-    chart: {
-      height: 'auto'
+    colors: ['#E0AD55','#827e57','#7ea3bc','#55666f','#c06f64','#a83c1e'],
+    legend: {
+      show: false
     },
-    xaxis: {
-      position: "bottom",
+    plotOptions: {
+      
+      bar:  {
+      
+        distributed: true,
+        legend: {
+          display: false
+        },
+        tooltips: {
+          enabled: false
+       }
+      },
+      chart: {
+        type: 'bar',
+      },
+   },
+   dataLabels: {
+    enabled: true,
+    
+  },
+   xaxis: {
       labels: {
-        show: true,
-        rotate: -45
+       rotate: -45,
+       offsetY: 0,
+       style: {
+        colors: ["#000"],
+        fontSize: '8.5px',
+        cssClass: 'apexcharts-xaxis-label',
+    },
       },
    categories: post?.map((e) => {
         return e.Regiao
@@ -49,11 +75,12 @@ function Columnchart(){
         enabled: true
       },
     }
+    
   }
 
   return(
-      <ApexChart options={options} series={series} type="bar" width={640} height={480}/>
-    
+      <ApexChart options={options} series={series} type="bar" height={480}/>
+
   )
 }
 

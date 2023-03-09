@@ -25,6 +25,10 @@ function Columnchart(){
   }]
 
   const options = {
+    legend: {
+      show: false
+    },
+
     colors: ['#E0AD55','#827e57','#7ea3bc','#E0AD55','#55666f','#E0AD55','#c06f64','#a83c1e','#a83c1e','#a83c1e','#a83c1e','#f1f1f3','#7ea3bc'],
     plotOptions: {
       bar:  {
