@@ -15,9 +15,13 @@ apresentação com a exploração dos dados.
 
 ## ◼ Perguntas e Respostas
 
-### 1. Qual a quantidade de casas por região?
+### 1. Qual o episódio com a maior avaliação geral?
 ```bash
-teste
+o décimo episódio da sexta temporada com a nota de 9,9 de 10.
+```
+### 2. Qual foi o diretor que dirigiu mais episódios? 
+```bash
+ foi David Nutter, que dirigiu um total de 6 episódios.
 ```
 
 
