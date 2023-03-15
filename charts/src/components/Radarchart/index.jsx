@@ -25,7 +25,7 @@ function Radarchart(){
         polygons: {
           strokeColors: '#43464B',
           fill: {
-            colors: ['#000']
+            colors: ['#FFFDDD']
           }
         }
       }
@@ -42,10 +42,10 @@ function Radarchart(){
       type: 'radar',
     },
     fill: {
-      colors: ['#A11D2E']
+      colors: ['#A51D2F']
       },
     title: {
-      text: 'Basic Radar Chart'
+      text: ''
     },
     xaxis: {
       categories: post?.map((e) => {
@@ -55,7 +55,7 @@ function Radarchart(){
   }
 
   return(
-    <ApexChart options={options} series={series} type="radar" width={640} height={480}/>
+    <ApexChart options={options} series={series} type="radar" height={480}/>
   )
 }
 

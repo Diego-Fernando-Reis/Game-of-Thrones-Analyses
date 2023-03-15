@@ -19,7 +19,7 @@
 #logo_baratheon{
   position: absolute;
   z-index: -1;
-  right: 1030px;
+  right: 1160px;
   top: -130px;
   max-width: 160px;
 }
@@ -35,7 +35,7 @@
 #logo_martell{
   position: absolute;
   z-index: -1;
-  right: 1030px;
+  right: 1160px;
   top: -130px;
   max-width: 170px;
 }
@@ -51,7 +51,7 @@
 #logo_lannister{
   position: absolute;
   z-index: -1;
-  right: 1030px;
+  right: 1160px;
   top: -130px;
   max-width: 170px;
 }
@@ -159,6 +159,7 @@
 
 .general_rules{
   width: 100%;
+  background-position: center;
 }
 
 footer{

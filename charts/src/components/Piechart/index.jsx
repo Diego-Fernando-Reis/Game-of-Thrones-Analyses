@@ -37,6 +37,7 @@ function Piechart(){
   console.log('series :' + a)
 
   const options = {
+    colors: ['#ffff00','#cb0e00','#c8cdcd'],
       chart: {
         width: 380,
         type: 'pie',
@@ -47,8 +48,8 @@ function Piechart(){
         opacity: 0.85,
         image: {
            src: [img3,img2,img1],
-          width: 25,
-          imagedHeight: 25
+          width: 1,
+          imagedHeight: 1
         },
       },
       responsive: [{
@@ -65,7 +66,7 @@ function Piechart(){
   }
 
   return(
-    <ApexChart options={options} series={series} type="pie" width={640} height={480}/>
+    <ApexChart options={options} series={series} type="pie" height={480}/>
   )
 }
 
