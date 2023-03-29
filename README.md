@@ -2,7 +2,7 @@
 
 [![Resilia Logo](https://www.resilia.com.br/wp-content/uploads/2021/08/logo.png)](https://www.resilia.com.br/)
 
-# Projeto em Grupo — Módulo 4 — Visualizando a situação
+# Projeto em Grupo — Módulo 4 — Visualizando a situaçãa
 
 
 ## ◼ Sobre o Projeto
